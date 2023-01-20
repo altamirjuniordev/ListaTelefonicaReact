@@ -1,0 +1,18 @@
+header {
+
+    color: white;
+}
+
+body {
+    background-color: rgb(16, 71, 16);
+}
+
+.adicionar {
+    background-color: green;
+    color: white;
+}
+
+button {
+    border-radius: 1em;
+    padding: 10px;
+}
