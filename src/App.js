@@ -29,12 +29,13 @@ export default function App() {
     );
     if (typeof duplicado !== "undefined") {
       telefoneRef.current.focus();
+      alert('Este contato já foi adicionado à sua lista.');
       return;
     }
     setListaContato([...listaContato, contato]);
 
     //limpar contato
-    setContato({ nome: " ", telefone: " " });
+    setContato({ nome: "", telefone: "" });
 
     //focus no input nome
     nomeRef.current.focus();
