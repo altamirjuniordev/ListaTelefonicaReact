@@ -1,7 +1,20 @@
 .agenda {
-    color: wheat;
-    text-align: center;
+    color: rgb(214, 214, 214);
+    text-align: start;
     background-color: rgb(3, 66, 109);
     margin: 10px auto;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-size: 2.1vw;
 }
 
+.remover {
+    background-color: red;
+    color: rgb(233, 233, 233);
+    border-radius: 1em;
+    padding: 10px 8px;
+}
+
+p {
+    padding: 15px 0px 0px 20px;
+}

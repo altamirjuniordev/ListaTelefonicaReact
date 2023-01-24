@@ -7,9 +7,10 @@ import './listaContato.css'
 
 export default function Listas (props) {
     return (
-        <div className="row">
-            <div className=" col-10 agenda">
-                {props.nome} - {props.telefone} <button onClick={() => {props.remover({nome: props.nome, contato: props.telefone })}} >Remover</button>
+        <div className="container  justify-content-center">
+            <div className= "agenda d-flex align-items-center">
+                <p className="col-9"> {props.nome} - {props.telefone} </p> 
+                <button className="remover col-3" onClick={() => {props.remover({nome: props.nome, contato: props.telefone })}} >Remover</button>
              </div>
         </div>
         

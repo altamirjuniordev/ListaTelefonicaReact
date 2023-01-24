@@ -10,9 +10,10 @@ body {
 .adicionar {
     background-color: green;
     color: white;
+
 }
 
-button {
+.btn-principal {
     border-radius: 1em;
     padding: 10px;
 }

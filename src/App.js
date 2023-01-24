@@ -74,7 +74,7 @@ export default function App() {
       <header className="text-center p-4">
         <h1>Lista de contatos</h1>
       </header>
-      <div className="container-fluid p-3 adicionar">
+      <div className="container mb-3 p-3 adicionar">
         <div className="my-2">
           <label htmlFor="">Nome: </label> <br />
           <input
@@ -96,8 +96,8 @@ export default function App() {
             onKeyUp={adicionarEnter}
           />
         </div>
-        <button onClick={adicionarContato}>Adicionar contato</button>
-        <button onClick={limparContatos}>Limpar contatos</button>
+        <button className="btn-principal" onClick={adicionarContato}>Adicionar contato</button>
+        <button className="btn-principal" onClick={limparContatos}>Limpar contatos</button>
 
         {/* {listaContato.map(ct => {
             return <componenteLista nome={ct.nome} telefone={ct.telefone}/>
